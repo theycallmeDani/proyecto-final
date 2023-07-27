@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 h1,
 h2,
 h3,
@@ -8,31 +11,60 @@ p,
 li {
   font-family: 'Open Sans', sans-serif;
 }
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #EB0E0E;
+}
 header {
   background-color: white;
-  color:#EB0E0E;
-  font-weight: bold;
-  padding: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  color:#EB0E0E;
+  font-weight: bold;
+  padding: 10px;
 }
-.header-content {
-  padding-top: 5px;
+nav a {
+  padding-right: 10px;
 }
-.header-image {
-  padding-right: 200px;
+nav a:hover {
+  font-weight:normal;
+}
+.logo{
+  display: flex;
+  align-items:center
+}
+.logo-image {
+  height: 100px;
+  margin-right: 10px;
+}
+.logo-name {
+  font-size: 20px;
 }
 .about-me{
+  display: flex;
+  align-items: center;
   background-color:#EB0E0E;
   color:white;
-  padding: 40px;
+  padding: 80px;
 }
-.professional-experience {
+.aboutme-title {
+  padding-bottom: 40px;
+}
+#aboutme-text {
+  margin-left: 50px;
+}
+#professional-experience {
   background-color: #7896C1;
   color: white;
   padding: 40px;
 }
-.soft-skills-hobbies {
+.professionalexperience-text {
+  padding: 30px;
+}
+#contact-me {
   background-color: #D8BC9F;
   color: #EB0E0E;
   padding: 40px;
@@ -46,4 +78,8 @@ a[href="https://www.linkedin.com/in/danielafigueroafuentes/"] {
 .fa-envelope,
 .fa-linkedin {
   font-size: 20px;
+}
+footer {
+  align-items:center;
+  display: flex;
 }
