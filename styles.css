@@ -48,6 +48,7 @@ nav .header-button:hover {
 .about-me {
   background-color:#EB0E0E;
   color:white;
+  width: 100%;
   display: grid;
   place-items: center;
   padding-bottom: 30px;
@@ -69,7 +70,7 @@ nav .header-button:hover {
 }
 .download-btn {
   text-decoration: none;
-  background-color: #D8BC9F;
+  background-color: white;
   color: #EB0E0E;
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
@@ -84,7 +85,6 @@ nav .header-button:hover {
 #professional-experience {
   background-color: #7896C1;
   color: white;
-  width: 100%;
   font-size: 16px;
   line-height: 24px;
 }
@@ -113,10 +113,18 @@ nav .header-button:hover {
   color: #EB0E0E;
   padding: 10px;
 }
+.active {
+color: white;
+background-color: #EB0E0E;
+padding: 5px 5px;
+border-radius: 5px;
+place-content: center;
+}
 .contact-items {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
 }
 .footer-text {
   color: #EB0E0E;
@@ -124,4 +132,30 @@ nav .header-button:hover {
   padding: 20px 30px 20px;
   display: grid;
   place-items: center;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    padding-bottom: 20px;
+  }
+  .profile-image {
+    width: 600px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .div-title {
+    padding: 20px 0px 20px;
+  }
+  #aboutme-text {
+    padding: 20px 30px 40px;
+  }
+  .job-title {
+    padding: 20px 20px 10px 20px;
+  }
+  .company {
+    padding: 0px 30px 10px;
+  }
+  #professional-experience {
+    padding: 0px 50px 50px 20px;
+  }
 }

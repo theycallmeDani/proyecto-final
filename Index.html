@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <title>Daniela Figueroa</title>
+    <link rel="shortcut icon" href="Imagenes/Favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <link  href="script.js" rel="js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -17,8 +19,7 @@
         <h2 class="logo-name">IT Consulting Services</h2>
       </div>
       <nav>
-        <a href="#about-me" class="header-button">About Me</a>
-        <a href="#professional-experience" class="header-button">Experience</a>
+        <a href="#professional-experience" class="header-button active">Experience</a>
         <a href="#contact-me" class="header-button">Contact Me!</a>
       </nav>
     </header>
@@ -27,18 +28,18 @@
           <div class="aboutme-image">
             <a href="https://www.linkedin.com/in/danielafigueroafuentes/" target="_blank" rel="noopener noreferrer"><img src="imagenes/Imagen de perfil.jpg" alt="Profile image" class="profile-image"/></a>
           </div>
-          <div id="aboutme-text">
-            <h2 class="div-title">About Me</h2>
-            <p id="personal-summary">
-            I'm a Senior Global IT Recruiter and People Specialist currently focused
-            on helping talent and organizations find each other's ideal match. I have
-           experience in people operations and end-to-end recruitment cycles. A big
-            believer in teamwork and people focus as the best way to build successful
-            organizations!</p>
-          </div>
-          <div class="download-cv">
-            <a href="Documents/CV.pdf" download='computer' class="download-btn" target="_blank">Download CV</a>
-          </div>
+            <div id="aboutme-text">
+              <h2 class="div-title">About Me</h2>
+              <p id="personal-summary">
+              I'm a Senior Global IT Recruiter and People Specialist currently focused
+              on helping talent and organizations find each other's ideal match. I have
+            experience in people operations and end-to-end recruitment cycles. A big
+              believer in teamwork and people focus as the best way to build successful
+              organizations!</p>
+            </div>
+            <div class="download-cv">
+              <a href="Documents/CV.pdf" download='computer' class="download-btn" target="_blank">Download CV</a>
+            </div>
       </section> 
       <section id="professional-experience"> 
         <h2 class="div-title">Professional Experience</h2>
@@ -163,7 +164,7 @@
       <section id="contact-me">
           <h2 class="div-title">Contact me!</h2>
             <div class="contact-items">
-              <i class="fa-solid fa-envelope"></i></i>
+              <a href="mailto:danielafigueroafuentes@gmail.com"><i class="fa-solid fa-envelope"></i></i></a>
               <a href="https://github.com/theycallmeDani"
               target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i></a> 
               <a
@@ -177,4 +178,5 @@
   <footer>
     <h3 class="footer-text">Thank you!</h3>
   </footer>
+  <script src="js/main.js"></script> 
 </html>
